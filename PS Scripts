@@ -1,7 +1,0 @@
-Add Registry Key
-
-```bash
-Set-RegistryKey -Key 'HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Olinda_0' -Name 'NoRemove' -Value '1' -Type Dword
-
-Set-RegistryKey -Key 'HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Olinda_0' -Name 'NoModify' -Value '1'   -Type Dword
-```
